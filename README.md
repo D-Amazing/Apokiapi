@@ -1,0 +1,1 @@
+  I demonstrated my understanding of JavaScript Objects, the DOM, and asynchronous JavaScript by creating a simple web page that interacts with the PokeAPI to display basic Pokémon information. I'm still learning how the API works but it was cool working my way into understanding how this works 
