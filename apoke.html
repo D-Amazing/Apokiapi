@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f7f7f7;
+    }
+    #pokemon-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+    }
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pokemon Search</h1>
+  <input type="text" id="pokemon-name" placeholder="Enter Pokémon Name or ID" />
+  <button onclick="searchPokemon()">Search</button>
+
+  <div id="pokemon-info">
+    <!-- Pokemon name, image, and type will be displayed here -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--Explanation:
+HTML (index.html):
+
+We create a simple input field where users can type the name or ID of a Pokémon.
+
+There is a button that calls the searchPokemon() function when clicked.
+
+We have a div (#pokemon-info) where the Pokémon information (name, image, and type) will be displayed dynamically. 
+-->
